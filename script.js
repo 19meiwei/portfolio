@@ -1,17 +1,14 @@
 console.log("Vy Dang's portfolio is running!");
 
 
-// ==============================
-// SMOOTH SCROLLING
-// ==============================
+console.log("Vy Dang's portfolio is running!");
 
 
-        // Close mobile menu after clicking
-        navMenu.classList.remove("active");
+// ============================
+// REVEAL SECTIONS WHEN SCROLLING
+// ============================
 
-    });
 
-});
 
 
 // ==============================
