@@ -5,20 +5,6 @@ console.log("Vy Dang's portfolio is running!");
 // SMOOTH SCROLLING
 // ==============================
 
-const navLinks = document.querySelectorAll(".nav-links a");
-
-navLinks.forEach(function(link) {
-
-    link.addEventListener("click", function(event) {
-
-        event.preventDefault();
-
-        const targetId = this.getAttribute("href");
-        const targetSection = document.querySelector(targetId);
-
-        targetSection.scrollIntoView({
-            behavior: "smooth"
-        });
 
         // Close mobile menu after clicking
         navMenu.classList.remove("active");
